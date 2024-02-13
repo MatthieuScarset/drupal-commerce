@@ -1,0 +1,9 @@
+uuid: ed43d694-e89e-412e-9747-164caf6fdb4a
+langcode: en
+status: true
+dependencies: {  }
+id: boutique
+label: Boutique
+traits: {  }
+locked: false
+description: 'A real-world physical shop.'

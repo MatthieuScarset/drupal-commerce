@@ -1,0 +1,9 @@
+name: 'Default content'
+type: module
+description: 'Imports default content'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - commerce:commerce_store
+  - commerce:commerce_product
+  - default_content:default_content

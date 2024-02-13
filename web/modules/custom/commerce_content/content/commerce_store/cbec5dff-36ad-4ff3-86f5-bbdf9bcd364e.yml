@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: cbec5dff-36ad-4ff3-86f5-bbdf9bcd364e
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Website
+  mail:
+    -
+      value: drupal@commerce.lndo.site
+  default_currency:
+    -
+      target_id: EUR
+  timezone:
+    -
+      value: Europe/Paris
+  address:
+    -
+      langcode: ''
+      country_code: FR
+      administrative_area: ''
+      locality: PARIS
+      dependent_locality: ''
+      postal_code: '75013'
+      sorting_code: ''
+      address_line1: '53 rue de la Glaciere'
+      address_line2: ''
+  path:
+    -
+      alias: ''
+      langcode: en
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1707826062

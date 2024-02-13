@@ -12,16 +12,16 @@ Recommandations:
 Installation:
 
 ```bash
-git clone https://github.com/MatthieuScarset/drupal-template.git myproject
+git clone https://github.com/MatthieuScarset/drupal-template.git commerce
 
-cd myproject
+cd commerce
 
 # Delete git reference.
 rm -rf .git/
 
-# Replace the project name (i.e. 'myproject').
-code .env.example    # ->  DRUSH_OPTIONS_URI=https://myproject.lndo.site
-code .lando.yml      # ->  name: myproject
+# Replace the project name (i.e. 'commerce').
+code .env.example    # ->  DRUSH_OPTIONS_URI=https://commerce.lndo.site
+code .lando.yml      # ->  name: commerce
 
 # Create your env file now
 cp .env.example .env
